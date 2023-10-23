@@ -1,0 +1,61 @@
+.nav-link:hover {
+    padding-bottom: 2px !important;
+    border-bottom: 3px solid rgb(4, 32, 110) ;
+}
+
+.active{
+    padding-bottom: 2px !important;
+    border-bottom: 3px solid rgb(4, 32, 110) !important ;
+    transition: all ease-in-out 0.4s;
+}
+.uni-color{
+    color: rgb(4, 32, 110) ;
+}
+.-d{
+    border: 2px solid rgb(4, 32, 110);
+}
+.-d:hover{
+    color: white;
+    background-color:  rgb(4, 32, 110);
+}
+.carousel-item, CTA{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+.a{
+    background-image: url(./hero-carousel-2.jpg);
+}
+.d{
+    background-image: url(./hero-carousel-4.jpg);
+}
+.b{
+    background-image: url(./hero-carousel-3.jpg);
+}
+.c{
+    background-image: url(./hero-carousel-1.jpg);
+}
+#cta{
+    background-image: url(./construction-and-design.jpg);
+}
+.i{
+    background-color: rgba(4, 32, 110, 0.226); 
+}
+.iii{
+    background-color: rgba(4, 32, 110, 0.068); 
+}
+.ii{
+    background-color: rgb(1, 11, 39); 
+}
+.h{
+    height: 195px;
+}
+
+
+@media only screen and  (max-width: 950px) {
+    div#navbarNavDropdown {
+        background: rgb(4, 32, 110);
+    }
+    
+}
